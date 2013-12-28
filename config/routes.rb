@@ -1,6 +1,8 @@
 Of6Portfolio::Application.routes.draw do
 
 
+  devise_for :users
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
   root 'home#index'
 
   # Example of regular route:
