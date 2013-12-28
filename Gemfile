@@ -13,6 +13,7 @@ gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
+gem 'rails_admin', '~> 0.6.0'
 
 group :assets do
   gem 'sass-rails'
