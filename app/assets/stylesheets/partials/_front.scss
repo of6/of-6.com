@@ -1,0 +1,28 @@
+body {
+  -moz-box-shadow: inset 0px 0px 240px rgba(0,0,0,0.4);
+  -webkit-box-shadow: inset 0px 0px 240px rgba(0,0,0,0.4);
+  box-shadow: inset 0px 0px 240px rgba(0,0,0,0.4);
+}
+
+.content-front {
+  padding: rem-calc(112) 0;
+
+  #logo {
+    max-width: rem-calc(166);
+    margin: 0 auto rem-calc(64);
+  }
+
+  .all-the-sexy-buzzwords {
+    margin: rem-calc(64) auto;
+    font-size: rem-calc(40);
+  }
+
+  .button {
+    font-size: rem-calc(20);
+
+    &:hover {
+      top: -1px;
+      background: $primary-color;
+    }
+  }
+}

@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'zurb-foundation'
+gem 'foundation-rails'
 gem 'rails_admin', '~> 0.6.0'
 
 group :assets do
