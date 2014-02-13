@@ -6,7 +6,6 @@ gem 'rails', '4.0.2'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
-gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'figaro'
@@ -18,6 +17,7 @@ gem 'rails_admin', '~> 0.6.0'
 group :assets do
   gem 'sass-rails'
   gem 'compass-rails'
+  gem 'therubyracer'
 end
 
 group :development do
@@ -27,10 +27,12 @@ group :development do
   gem 'sqlite3'
 end
 
-group :produciton do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'thin'
 end
 
-gem "devise"
+gem 'devise'
+gem 'unicorn'
+gem 'capistrano'
+gem 'rvm-capistrano'
