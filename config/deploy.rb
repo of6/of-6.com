@@ -1,4 +1,3 @@
-set :bundle_dir, "/home/of6/.rvm/gems/ruby-2.1.0"
 require "bundler/capistrano"
 require "rvm/capistrano"
 
@@ -16,9 +15,6 @@ set :scm, "git"
 set :branch, "master"
 set :scm_verbose, true
 set :scm_passphrase, ""
-
-set :rvm_ruby_string, 'ruby-2.1.0'
-set :rvm_type, :user
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
