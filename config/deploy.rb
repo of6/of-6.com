@@ -16,7 +16,7 @@ set :branch, "master"
 set :scm_verbose, true
 set :scm_passphrase, ""
 set :rvm_type, :system
-set :rvm_path, "/home/of6/.rvm"
+set :rvm_path, "$HOME/.rvm/bin/rvm"
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
