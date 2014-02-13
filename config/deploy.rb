@@ -17,7 +17,7 @@ set :branch, "master"
 set :scm_verbose, true
 set :scm_passphrase, ""
 
-set :rvm_ruby_string, ENV['GEM_HOME'].gsub(/.*\//,"")
+set :rvm_ruby_string, 'ruby-2.1.0'
 set :rvm_type, :user
 
 default_run_options[:pty] = true
