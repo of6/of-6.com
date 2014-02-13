@@ -202,7 +202,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
-  capistrano
+  capistrano (~> 2.15.5)
   coffee-rails (~> 4.0.0)
   compass-rails
   devise
