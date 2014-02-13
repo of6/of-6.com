@@ -1,5 +1,4 @@
 require "bundler/capistrano"
-require "rvm/capistrano"
 
 server "192.241.234.141", :web, :app, :db, primary: true
 
@@ -55,3 +54,5 @@ namespace :deploy do
   end
   before "deploy", "deploy:check_revision"
 end
+
+require "rvm/capistrano"
