@@ -32,5 +32,5 @@ end
 
 gem 'devise'
 gem 'unicorn'
-gem 'capistrano', '~> 2.15.5'
+gem 'capistrano'
 gem 'rvm-capistrano'
