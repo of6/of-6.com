@@ -10,7 +10,7 @@ set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
-set :repo_url, "git@github.com:of6/of-6.com.git"
+set :repository, "git@github.com:of6/of-6.com.git"
 set :scm, "git"
 set :branch, "master"
 set :scm_verbose, true
