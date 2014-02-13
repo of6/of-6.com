@@ -15,6 +15,7 @@ set :scm, "git"
 set :branch, "master"
 set :scm_verbose, true
 set :scm_passphrase, ""
+set :rvm_type, :system
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
