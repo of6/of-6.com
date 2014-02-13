@@ -12,6 +12,7 @@ set :use_sudo, false
 
 set :scm, "git"
 set :repo_url, "git@github.com:of6/#{application}.git"
+set :scm_passphrase, ""
 set :branch, "master"
 
 
