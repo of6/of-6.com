@@ -9,7 +9,6 @@ set :port, 22
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
-set :rvm_type, :system
 
 set :scm, "git"
 set :repo_url, "git@github.com:of6/#{application}.git"
