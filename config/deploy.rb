@@ -1,3 +1,4 @@
+set :bundle_dir, "/home/of6/.rvm/gems/ruby-2.1.0"
 require "bundler/capistrano"
 require "rvm/capistrano"
 
