@@ -10,10 +10,11 @@ set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
+set :repo_url, "git@github.com:of6/of-6.com.git"
 set :scm, "git"
-set :repo_url, "git@github.com:of6/#{application}.git"
 set :branch, "master"
-
+set :scm_verbose, true
+set :scm_passphrase, ""
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
