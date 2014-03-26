@@ -5,20 +5,37 @@ body {
 }
 
 .content-front {
-  padding: rem-calc(112) 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
   #logo {
-    max-width: rem-calc(166);
+    max-width: rem-calc(288);
     margin: 0 auto rem-calc(64);
   }
 
   .all-the-sexy-buzzwords {
     margin: rem-calc(64) auto;
-    font-size: rem-calc(40);
+    font-size: rem-calc(22);
+
+    @media #{$medium-up} {
+      margin: rem-calc(80) auto;
+      font-size: rem-calc(32);
+    }
   }
 
   .button {
-    font-size: rem-calc(20);
+    font-size: rem-calc(16);
+
+    @media #{$medium-up} {
+      font-size: rem-calc(20);
+    }
 
     &:hover {
       top: -1px;
